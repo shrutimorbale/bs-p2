@@ -1,0 +1,134 @@
+/* Main CSS */   
+    
+
+         /*<!-- Navbar CSS */
+
+    .navbar {
+             background-color: rgb(205, 89, 133);
+            border-radius: 10px;
+   
+            }
+
+     .nav-item .nav-link {
+           color: black;
+        }   
+
+      .carousel-item img {
+                        height: 500px;
+                        border-radius: 30px;
+                        padding: 20px;
+                      
+      }
+
+        /* foodvilla */
+
+      .foodvilla{
+                    text-align: center;
+                     margin-top: 20px;
+                    margin-bottom: 20px;
+                    text-shadow: 2px 2px 5px rgb(205, 89, 133);                    font-style: italic;
+                    font-size: 40px;
+      }
+
+
+
+       /* Card CSS */
+
+      .card-group{
+        height: 30%;
+        width: 80%;
+        margin-left: 10%;
+
+       
+      }
+      .card{
+        padding:  10px;
+        
+      }
+
+      .card img{
+        border-radius: 10px;
+      }
+
+      .inspiration{
+        background-color: rgba(128, 128, 128, 0.167);
+        height: 300px;
+        width: 1200px;
+        margin-left:  160px;
+        margin-right: 90px;
+        border-radius: 6px;
+   
+      }
+
+       /* Menu */
+
+      .inspiration h1{
+        margin-left: 20px;
+        
+      }
+      .inspiration img{
+                    margin-top: 1px;
+                    height: 200px;
+                    width: 200px;
+                    margin-left: 70px; 
+                    border-radius: 100%;
+                    position: absolute;
+      }
+
+      .inspiration img:hover{
+        transform: scale(1.1);
+        transition: 0.5s;
+      }
+
+
+      /*Brand*/
+
+     .Brand{
+      background-color: rgba(128, 128, 128, 0.167);
+        height: 300px;
+        width: 1200px;
+        margin-left:  160px;
+        margin-right: 90px;
+        border-radius: 6px;
+
+     }
+     .Brand h1{
+        margin-left: 20px;
+        
+      }
+
+       .Brand img{
+                    margin-top: 1px;
+                    height: 200px;
+                    width: 200px;
+                    margin-left: 60px; 
+                    border-radius: 100%;
+                    position: absolute;
+      }
+
+      .Brand img:hover{
+        transform: scale(1.1);
+        transition: 0.5s;
+      }
+
+
+      /*Footer*/
+      .card-body i{
+        color: black;
+        height: 20px;
+        width: 40px;
+        cursor: pointer;
+        
+      }
+
+      
+      .btn-group {
+      width: 10%;
+      margin-left: 70%;
+            
+      }
+      .food{
+
+        margin-left: 50px;
+      }
+      
