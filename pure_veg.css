@@ -1,0 +1,205 @@
+/* Main CSS */   
+    
+
+         /*<!-- Navbar CSS */
+
+    .navbar {
+             background-color: white;
+             position: fixed;
+              top: 0;
+              left: 0;
+              width: 100%;
+              z-index: 1000;
+   
+            }
+
+            .navbar-brand{
+               font-family: "Playfair Display", serif;
+              font-size: 50px;
+              text-align: center;
+              letter-spacing: 4px;
+              color: #4a2c2a;
+              text-shadow: 
+                  0px 3px 5px rgba(0,0,0,0.3);   
+
+            }
+
+     .nav-item .nav-link {
+           color: black;
+        }   
+
+      .carousel-item img {
+                        height: 500px;
+                        border-radius: 30px;
+                        padding: 20px;
+                      
+      }
+
+
+      /*Caro*/
+      .food-carousel {
+    max-width: 90%;
+    margin: auto;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+/* Image styling */
+.food-carousel img {
+    height: 450px;
+    object-fit: cover;
+    transition: transform 4s ease;
+}
+
+/* Zoom effect */
+.carousel-item.active img {
+    transform: scale(1.08);
+}
+
+/* Dark overlay */
+.carousel-item::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.6), transparent);
+}
+
+/* Caption */
+.carousel-caption {
+    bottom: 20%;
+    text-align: left;
+    animation: fadeUp 1.2s ease;
+}
+
+.carousel-caption h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 18px;
+}
+
+/* Animation */
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Indicators */
+.carousel-indicators button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+     
+       /* Card CSS */
+
+      .card-group{
+        
+        height: 30%;
+        width: 80%;
+        margin-left: 10%;
+
+       
+      }
+      .card{
+        padding:  10px;
+        
+      }
+
+      .card img{
+        border-radius: 10px;
+      }
+
+      .inspiration{
+        background-color: rgba(128, 128, 128, 0.167);
+        width: auto;
+        height: auto;
+        padding: 20px;
+        margin-left:  10px;
+        margin-right: 10px;
+        border-radius: 6px;
+         
+      }
+
+       /* Menu */
+
+      .inspiration h1{
+        margin-left: 20px;
+        padding: auto;
+        margin: auto;
+        
+      }
+      
+      .inspiration img{
+                    margin-top: 1px;
+                    height: 200px;
+                    width: 200px;
+                    border-radius: 100%;
+                    position: relative;
+      }
+    
+
+      .inspiration img:hover{
+        transform: scale(1.1);
+        transition: 0.5s;
+        
+      }
+
+
+      /*Brand*/
+
+     .Brand{
+       background-color: rgba(128, 128, 128, 0.167);
+        width: auto;
+        height: auto;
+        padding: 20px;
+        margin-left:  10px;
+        margin-right: 10px;
+        border-radius: 6px;
+
+     }
+     .Brand h1{
+        margin-left: 20px;
+        padding: auto;
+        margin: auto;
+        
+        
+      }
+
+       .Brand img{
+                    margin-top: 1px;
+                    height: 200px;
+                    width: 200px;
+                    border-radius: 100%;
+                    position: relative;
+      }
+
+      .Brand img:hover{
+        transform: scale(1.1);
+        transition: 0.5s;
+      }
+
+
+
+
+      .sixcard{
+         background-color:black;
+         margin: 50 50;
+         padding-left: 50px;
+         padding-right: 50px;
+         
+        
+      }
+
+
